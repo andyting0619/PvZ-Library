@@ -134,6 +134,6 @@ void AScript()
         aCobManager.Fire({{2, 9}, {5, 9}, {1, 9}, {5, 9}});
     });
     AConnect(ATime(20, 410 - 373), [=] {
-        aCobManager.Fire({{1, 9}, {5, 9}, {1, 9}, {5, 9}});
+        aCobManager.Fire({{2, 9}, {5, 9}, {1, 9}, {5, 9}});
     });
 }
