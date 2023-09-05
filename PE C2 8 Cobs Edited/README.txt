@@ -1,1 +1,0 @@
-Note: This is not the original setup. If you use rear delayed cobs, then you must change the rear spikerocks to glooms because of pogos.
