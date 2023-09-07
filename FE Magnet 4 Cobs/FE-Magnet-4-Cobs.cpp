@@ -169,7 +169,7 @@ void AScript()
         aCobManager.Fire(2, 9);
     });
     AConnect(ATime(19, 341 + 344 - 376), [=] {
-        aCobManager.Fire(5, 9);
+        aCobManager.Fire(5, 8.5);
     });
     AConnect(ATime(19, 700), [=] {
         aCobManager.RecoverFire({{2, 8}, {5, 8}, {2, 8}, {5, 8}});
