@@ -164,7 +164,7 @@ void AScript()
         ACard(AM_ICE_SHROOM, 1, 6);
         ASetPlantActiveTime(AICE_SHROOM, 420);
     });
-    // W19 P-P-PP-I-P-P
+    // W19 P-P-I-PP-P-P
     AConnect(ATime(19, 341 - 376), [=] {
         aCobManager.Fire(2, 9);
     });
