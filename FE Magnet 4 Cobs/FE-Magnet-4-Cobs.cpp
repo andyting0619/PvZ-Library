@@ -176,7 +176,8 @@ void AScript()
     });
     AConnect(ATime(19, 2000), [=] {
         ACard(AICE_SHROOM, 1, 6);
-        ASetPlantActiveTime(AICE_SHROOM, 100); });
+        ASetPlantActiveTime(AICE_SHROOM, 100);
+    });
     // W20 NAaA'-I-P-P
     AConnect(ATime(20, -55 + 373 - 100), [=] {
         ACard(ACHERRY_BOMB, 1, 9);
