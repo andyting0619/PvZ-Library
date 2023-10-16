@@ -5,7 +5,7 @@ void AScript()
 {
     ASetReloadMode(AReloadMode::MAIN_UI);
     AConnect(ATime(1, -598), [=] {
-        aCobManager.AutoGetList();
+        aCobManager.AutoSetList();
         ACard(AICE_SHROOM, 1, 6);
         ACard(AM_ICE_SHROOM, 2, 6);
         aIceFiller.Start({{3, 5}, {4, 5}});
