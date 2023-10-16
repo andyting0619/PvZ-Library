@@ -5,7 +5,7 @@ void AScript()
 {
     ASetReloadMode(AReloadMode::MAIN_UI);
     AConnect(ATime(1, -598), [=] {
-        aCobManager.AutoGetList();
+        aCobManager.AutoSetList();
         aIceFiller.Start({{3, 2}, {3, 3}, {3, 4}, {3, 5}, {1, 1}, {6, 1}});
         ACard({{ALILY_PAD, 3, 9}, {ADOOM_SHROOM, 3, 9}});
     });
