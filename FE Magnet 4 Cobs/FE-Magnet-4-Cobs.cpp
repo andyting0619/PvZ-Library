@@ -5,7 +5,7 @@ void AScript()
 {
     ASetReloadMode(AReloadMode::MAIN_UI);
     AConnect(ATime(1, -598), [=] {
-        aCobManager.AutoGetList();
+        aCobManager.AutoSetList();
         aPlantFixer.Start(APUMPKIN);
         aPlantFixer.SetHp(1333);
     });
