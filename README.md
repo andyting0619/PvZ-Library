@@ -22,7 +22,7 @@
    AvZ : Update
 
 7. Select the latest version and update to it.
-8. After updating, cut and paste the script into the AsmVsZombies folder.
+8. After updating, copy and paste the script into the AsmVsZombies folder.
 9. Copy and paste the .dat file into your PvZ userdata folder.
 10. Open PvZ, then run the script in Visual Studio Code before entering Survival Endless.
 11. After running the script, enter Survival Endless and press ```P``` to start the game.
